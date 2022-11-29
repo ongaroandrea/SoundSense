@@ -8,9 +8,9 @@
 import Foundation
 
 enum AudioLength: String, CaseIterable, Identifiable, Codable {
-    case corta
-    case media
-    case lunga
+    case short
+    case medium
+    case long
     
     var id: AudioLength { self }
 }

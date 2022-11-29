@@ -8,12 +8,12 @@
 import Foundation
 
 struct RecevingData: Decodable, Hashable {
-    let id: Int
-    let name: String
+    let created_at: String
     let file_type: String
-    let order: AudioOrder
+    let id: Int
     let instrument: Instrument
     let length: AudioLength
-    let created_at: String
+    let name: String
+    let order: AudioOrder
 }
 

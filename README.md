@@ -39,14 +39,14 @@
     Aumentare la consapevolezza sul benessere digitale: Data Visualization e Sonification in un’applicazione mobile
     <br />
     <br />
-    <a href="https://github.com/ongaroandrea/SoundSense"><strong>Esplora la documentazione »</strong></a>
+    <a href="https://github.com/ongaroandrea/SoundSense_Client"><strong>Esplora la documentazione »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ongaroandrea/SoundSense">Visualizza Demo</a>
+    <a href="https://github.com/ongaroandrea/SoundSense_Client">Visualizza Demo</a>
     ·
-    <a href="https://github.com/ongaroandrea/SoundSense/issues">Reporta un Bug</a>
+    <a href="https://github.com/ongaroandrea/SoundSense_Client/issues">Reporta un Bug</a>
     ·
-    <a href="https://github.com/ongaroandrea/SoundSense/issues">Richiedi una funzionalità</a>
+    <a href="https://github.com/ongaroandrea/SoundSense_Client/issues">Richiedi una funzionalità</a>
   </p>
 </div>
 
@@ -92,7 +92,7 @@ Con gli smartphone di oggi, i social media e i flussi infiniti di contenuti, mol
 
 
 
-### Built With
+### Realizzato con
 
 * [![Swift][Swift]][Swift]
 * [![SwiftUI][SwiftUI]][SwiftUI]
@@ -141,7 +141,7 @@ Distribuito con licenza MIT. Vedere `LICENSE.txt` per ulteriori informazioni.
 
 Andrea Ongaro  - andreaongaro103@yahoo.it | andrea.ongaro2@studio.unibo.it
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/ongaroandrea/SoundSense_Client](https://github.com/ongaroandrea/SoundSense_Client)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

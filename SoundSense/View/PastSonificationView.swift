@@ -24,7 +24,12 @@ struct PastSonificationView: View {
                         }
                     }
                 }
-                .onDelete(perform: deleteFile)
+                .onDelete{offset in
+                    Task{
+                        await connection.deleteFile(id: offset.count)
+                        connection.getPreviousData()
+                    }
+                }
             }
             .navigationDestination(for: RecevingData.self) { data in
                 PastSoundView(obj: data, visiblePlayer: $visiblePlayer)
@@ -35,18 +40,11 @@ struct PastSonificationView: View {
             .navigationTitle("Sonificazioni passate")
             .padding(.vertical)
         }
-        .onAppear(perform: {
-            //connection.getPreviousData()
-            print(connection.content)
-        })
-    }
-    
-    func deleteFile(offsets: IndexSet){
-        print(offsets)
-        withAnimation{
-            connection.deleteFile(id: offsets.count)
+        .onAppear{
+            connection.getPreviousData()
         }
     }
+
 }
 
 struct PastSonification_Previews: PreviewProvider {

@@ -10,8 +10,8 @@ import CoreData
 import HealthKit
 
 struct SoundView: View {
-    @State private var selectedInstrument = Instrument.violino
-    @State private var selectedLenght = AudioLength.media
+    @State private var selectedInstrument = Instrument.violin
+    @State private var selectedLenght = AudioLength.medium
     @State private var showingAlert = false
     
     @ObservedObject var healthData: HealthClass = HealthClass()

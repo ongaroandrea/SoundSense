@@ -8,9 +8,9 @@
 import Foundation
 
 enum Instrument: String, CaseIterable, Identifiable, Codable {
-    case violino
+    case violin
     case piano
-    case basso
+    case bass
     
     var id: Instrument { self }
 }

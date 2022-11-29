@@ -62,8 +62,8 @@
             filePath = "SoundSense/Classes/Connection.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
             landmarkName = "uploadData(uploadData:fileManager:fileURL:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -284,8 +284,8 @@
             filePath = "SoundSense/Classes/Connection.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "uploadData(uploadData:fileManager:fileURL:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -396,8 +396,8 @@
             filePath = "SoundSense/Classes/Connection.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
             landmarkName = "uploadData(uploadData:fileManager:fileURL:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -406,7 +406,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "47FD5521-DC04-4F6F-B778-7C423EB2EA15"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SoundSense/View/SoundView.swift"
@@ -418,14 +418,14 @@
             landmarkType = "24">
             <Locations>
                <Location
-                  uuid = "47FD5521-DC04-4F6F-B778-7C423EB2EA15 - bcd1216fdcb740e0"
+                  uuid = "47FD5521-DC04-4F6F-B778-7C423EB2EA15 - bf83b827a48f2e07"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #2 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.alert&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(_: SwiftUI.LocalizedStringKey, isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, actions: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.opacity(Swift.Double) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0)&gt; in SoundSense.SoundView.body.getter : some"
                   moduleName = "SoundSense"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/andreaongaro/Documents/Universita%CC%80/Laurea/Progetto%20Sonificazione/laurea-ios/SoundSense/SoundSense/View/SoundView.swift"
+                  urlString = "file:///Users/andreaongaro/Documents/Universita%CC%80/Laurea/Progetto%20Sonificazione/SoundSense/SoundSense/View/SoundView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "85"
@@ -433,14 +433,14 @@
                   offsetFromSymbolStart = "512">
                </Location>
                <Location
-                  uuid = "47FD5521-DC04-4F6F-B778-7C423EB2EA15 - 9b61719caee80ce6"
+                  uuid = "47FD5521-DC04-4F6F-B778-7C423EB2EA15 - 9833e8d4d6d06201"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #2 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.alert&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(_: SwiftUI.LocalizedStringKey, isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, actions: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.opacity(Swift.Double) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0)&gt; in SoundSense.SoundView.body.getter : some"
                   moduleName = "SoundSense"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/andreaongaro/Documents/Universita%CC%80/Laurea/Progetto%20Sonificazione/laurea-ios/SoundSense/SoundSense/View/SoundView.swift"
+                  urlString = "file:///Users/andreaongaro/Documents/Universita%CC%80/Laurea/Progetto%20Sonificazione/SoundSense/SoundSense/View/SoundView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "85"
@@ -540,8 +540,8 @@
             filePath = "SoundSense/Classes/Connection.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
             landmarkName = "uploadData(uploadData:fileManager:fileURL:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -598,7 +598,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "7F01CA32-9B16-4F49-9AEB-55CECEB5BB2A"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SoundSense/View/SoundView.swift"
@@ -610,14 +610,14 @@
             landmarkType = "24">
             <Locations>
                <Location
-                  uuid = "7F01CA32-9B16-4F49-9AEB-55CECEB5BB2A - bcd1216fdcb7419f"
+                  uuid = "7F01CA32-9B16-4F49-9AEB-55CECEB5BB2A - bf83b827a48f2fa2"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #2 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.alert&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(_: SwiftUI.LocalizedStringKey, isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, actions: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.opacity(Swift.Double) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0)&gt; in SoundSense.SoundView.body.getter : some"
                   moduleName = "SoundSense"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/andreaongaro/Documents/Universita%CC%80/Laurea/Progetto%20Sonificazione/laurea-ios/SoundSense/SoundSense/View/SoundView.swift"
+                  urlString = "file:///Users/andreaongaro/Documents/Universita%CC%80/Laurea/Progetto%20Sonificazione/SoundSense/SoundSense/View/SoundView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "80"
@@ -625,14 +625,14 @@
                   offsetFromSymbolStart = "1100">
                </Location>
                <Location
-                  uuid = "7F01CA32-9B16-4F49-9AEB-55CECEB5BB2A - bf5c3ce37fd71e8a"
+                  uuid = "7F01CA32-9B16-4F49-9AEB-55CECEB5BB2A - bc0ea5ab07ef70b7"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in closure #2 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.alert&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(_: SwiftUI.LocalizedStringKey, isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, actions: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.opacity(Swift.Double) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0)&gt; in SoundSense.SoundView.body.getter : some"
                   moduleName = "SoundSense"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/andreaongaro/Documents/Universita%CC%80/Laurea/Progetto%20Sonificazione/laurea-ios/SoundSense/SoundSense/View/SoundView.swift"
+                  urlString = "file:///Users/andreaongaro/Documents/Universita%CC%80/Laurea/Progetto%20Sonificazione/SoundSense/SoundSense/View/SoundView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "80"
@@ -640,14 +640,14 @@
                   offsetFromSymbolStart = "44">
                </Location>
                <Location
-                  uuid = "7F01CA32-9B16-4F49-9AEB-55CECEB5BB2A - 9b61719caee80d99"
+                  uuid = "7F01CA32-9B16-4F49-9AEB-55CECEB5BB2A - 9833e8d4d6d063a4"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #2 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.alert&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(_: SwiftUI.LocalizedStringKey, isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, actions: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.opacity(Swift.Double) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0)&gt; in SoundSense.SoundView.body.getter : some"
                   moduleName = "SoundSense"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/andreaongaro/Documents/Universita%CC%80/Laurea/Progetto%20Sonificazione/laurea-ios/SoundSense/SoundSense/View/SoundView.swift"
+                  urlString = "file:///Users/andreaongaro/Documents/Universita%CC%80/Laurea/Progetto%20Sonificazione/SoundSense/SoundSense/View/SoundView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "80"
@@ -689,14 +689,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "32B8701F-7E42-4567-B706-265F66DC8F48 - 9e995b7fb884d602"
+                  uuid = "32B8701F-7E42-4567-B706-265F66DC8F48 - 54a7e7b4dc3f5742"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(1) suspend resume partial function for SoundSense.HealthClass.getSampleData(startDate: Foundation.Date, endDate: Foundation.Date, identifier: __C.HKQuantityTypeIdentifier) async -&gt; Swift.Array&lt;SoundSense.DataType&gt;"
                   moduleName = "SoundSense"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/andreaongaro/Documents/Universita%CC%80/Laurea/Progetto%20Sonificazione/laurea-ios/SoundSense/SoundSense/Classes/HealthClass.swift"
+                  urlString = "file:///Users/andreaongaro/Documents/Universita%CC%80/Laurea/Progetto%20Sonificazione/SoundSense/SoundSense/Classes/HealthClass.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "64"
@@ -704,14 +704,14 @@
                   offsetFromSymbolStart = "156">
                </Location>
                <Location
-                  uuid = "32B8701F-7E42-4567-B706-265F66DC8F48 - cd79d15153e36a04"
+                  uuid = "32B8701F-7E42-4567-B706-265F66DC8F48 - 7476d9a3758eb44"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(3) suspend resume partial function for SoundSense.HealthClass.getSampleData(startDate: Foundation.Date, endDate: Foundation.Date, identifier: __C.HKQuantityTypeIdentifier) async -&gt; Swift.Array&lt;SoundSense.DataType&gt;"
                   moduleName = "SoundSense"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/andreaongaro/Documents/Universita%CC%80/Laurea/Progetto%20Sonificazione/laurea-ios/SoundSense/SoundSense/Classes/HealthClass.swift"
+                  urlString = "file:///Users/andreaongaro/Documents/Universita%CC%80/Laurea/Progetto%20Sonificazione/SoundSense/SoundSense/Classes/HealthClass.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "64"
@@ -756,86 +756,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "324BAE35-222B-44F7-9664-C5413D02E02A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SoundSense/Classes/Connection.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
-            landmarkName = "getPreviousData()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "20A78051-57D1-495A-AD89-33E11AF90B16"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SoundSense/Classes/Connection.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
-            landmarkName = "getPreviousData()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "67324E60-88E4-41B5-92AF-40EB6A97D047"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SoundSense/Classes/Connection.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
-            landmarkName = "getPreviousData()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "67324E60-88E4-41B5-92AF-40EB6A97D047 - 9b501730828d73a1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SoundSense.Connection.getPreviousData() -&gt; ()"
-                  moduleName = "SoundSense"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/andreaongaro/Documents/Universita%CC%80/Laurea/Progetto%20Sonificazione/SoundSense/SoundSense/Classes/Connection.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "49"
-                  endingLineNumber = "49"
-                  offsetFromSymbolStart = "580">
-               </Location>
-               <Location
-                  uuid = "67324E60-88E4-41B5-92AF-40EB6A97D047 - b9b311be4936606b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SoundSense.Connection.getPreviousData() -&gt; ()"
-                  moduleName = "SoundSense"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/andreaongaro/Documents/Universita%CC%80/Laurea/Progetto%20Sonificazione/SoundSense/SoundSense/Classes/Connection.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "50"
-                  endingLineNumber = "50"
-                  offsetFromSymbolStart = "68">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "CC4EEBFB-38D4-4D4E-8A7D-97D3217B441F"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -843,8 +763,8 @@
             filePath = "SoundSense/Classes/Connection.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "getPreviousData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -975,6 +895,54 @@
             endingLineNumber = "42"
             landmarkName = "createLocalNotification(title:hour:minute:weekDay:completion:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD69522C-69DA-455F-8FF1-C500B32AED6F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SoundSense/Classes/Connection.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "deleteFile(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CD69522C-69DA-455F-8FF1-C500B32AED6F - e11fccf8fb3d7859"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SoundSense.Connection.deleteFile(id: Swift.Int) -&gt; ()"
+                  moduleName = "SoundSense"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andreaongaro/Documents/Universita%CC%80/Laurea/Progetto%20Sonificazione/SoundSense/SoundSense/Classes/Connection.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "CD69522C-69DA-455F-8FF1-C500B32AED6F - e11fccf8fb3d7859"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SoundSense.Connection.deleteFile(id: Swift.Int) -&gt; ()"
+                  moduleName = "SoundSense"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andreaongaro/Documents/Universita%CC%80/Laurea/Progetto%20Sonificazione/SoundSense/SoundSense/Classes/Connection.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

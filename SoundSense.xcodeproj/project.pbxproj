@@ -12,9 +12,6 @@
 		CB18C83228E71BC2009C16D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB18C83128E71BC2009C16D4 /* ContentView.swift */; };
 		CB18C83428E71BC3009C16D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB18C83328E71BC3009C16D4 /* Assets.xcassets */; };
 		CB18C83728E71BC3009C16D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB18C83628E71BC3009C16D4 /* Preview Assets.xcassets */; };
-		CB18C84128E71BC3009C16D4 /* SoundSenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB18C84028E71BC3009C16D4 /* SoundSenseTests.swift */; };
-		CB18C84B28E71BC3009C16D4 /* SoundSenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB18C84A28E71BC3009C16D4 /* SoundSenseUITests.swift */; };
-		CB18C84D28E71BC3009C16D4 /* SoundSenseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB18C84C28E71BC3009C16D4 /* SoundSenseUITestsLaunchTests.swift */; };
 		CB18C85B28E71C46009C16D4 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB18C85A28E71C46009C16D4 /* AudioManager.swift */; };
 		CB18C85D28E71C67009C16D4 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB18C85C28E71C67009C16D4 /* Connection.swift */; };
 		CB18C86028E71C7F009C16D4 /* HealthKitSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB18C85F28E71C7F009C16D4 /* HealthKitSupport.swift */; };
@@ -79,10 +76,7 @@
 		CB18C83328E71BC3009C16D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB18C83628E71BC3009C16D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CB18C83C28E71BC3009C16D4 /* SoundSenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundSenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB18C84028E71BC3009C16D4 /* SoundSenseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundSenseTests.swift; sourceTree = "<group>"; };
 		CB18C84628E71BC3009C16D4 /* SoundSenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundSenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB18C84A28E71BC3009C16D4 /* SoundSenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundSenseUITests.swift; sourceTree = "<group>"; };
-		CB18C84C28E71BC3009C16D4 /* SoundSenseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundSenseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CB18C85A28E71C46009C16D4 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 		CB18C85C28E71C67009C16D4 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
 		CB18C85F28E71C7F009C16D4 /* HealthKitSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitSupport.swift; sourceTree = "<group>"; };
@@ -154,8 +148,6 @@
 			isa = PBXGroup;
 			children = (
 				CB18C82E28E71BC2009C16D4 /* SoundSense */,
-				CB18C83F28E71BC3009C16D4 /* SoundSenseTests */,
-				CB18C84928E71BC3009C16D4 /* SoundSenseUITests */,
 				CB18C82D28E71BC2009C16D4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -194,23 +186,6 @@
 				CB18C83628E71BC3009C16D4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		CB18C83F28E71BC3009C16D4 /* SoundSenseTests */ = {
-			isa = PBXGroup;
-			children = (
-				CB18C84028E71BC3009C16D4 /* SoundSenseTests.swift */,
-			);
-			path = SoundSenseTests;
-			sourceTree = "<group>";
-		};
-		CB18C84928E71BC3009C16D4 /* SoundSenseUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CB18C84A28E71BC3009C16D4 /* SoundSenseUITests.swift */,
-				CB18C84C28E71BC3009C16D4 /* SoundSenseUITestsLaunchTests.swift */,
-			);
-			path = SoundSenseUITests;
 			sourceTree = "<group>";
 		};
 		CB18C85928E71C27009C16D4 /* Classes */ = {
@@ -488,7 +463,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB18C84128E71BC3009C16D4 /* SoundSenseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,8 +470,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB18C84B28E71BC3009C16D4 /* SoundSenseUITests.swift in Sources */,
-				CB18C84D28E71BC3009C16D4 /* SoundSenseUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

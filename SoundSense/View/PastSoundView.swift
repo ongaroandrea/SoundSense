@@ -97,7 +97,7 @@ struct PastSoundView: View {
 
 struct PastSoundView_Previews: PreviewProvider {
     static var previews: some View {
-        PastSoundView(obj: RecevingData(id: 1, name: "test", file_type: "Device", order: .asc, instrument: .violino, length: .lunga, created_at: ""),  visiblePlayer: .constant(false))
+        PastSoundView(obj: RecevingData(created_at: "", file_type: "", id: 1, instrument: .bass, length: .medium, name: "", order: .desc),  visiblePlayer: .constant(false))
     }
 }
 

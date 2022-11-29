@@ -10,13 +10,17 @@ import Foundation
 ///class to send data to python server
 public class SendableData: NSObject, Codable {
     var instrument: Instrument
-    var lenght: AudioLenght
-    var data: [StrangeType] = []
+    var length: AudioLength
+    var data: [DataType] = []
+    var type: String
+    var order: AudioOrder
     
-    init(instrument: Instrument, lenght: AudioLenght, data: [StrangeType]) {
+    init(instrument: Instrument, length: AudioLength, data: [DataType], type: String, order: AudioOrder) {
         self.instrument = instrument
-        self.lenght = lenght
+        self.length = length
         self.data = data
+        self.type = type
+        self.order = order
     }
     
 }

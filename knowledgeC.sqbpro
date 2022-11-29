@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="/Users/andreaongaro/Documents/Università/Laurea/Progetto Sonificazione/Jess_CTF_iPhone8/private/var/mobile/Library/CoreDuet/Knowledge/knowledgeC.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="77876"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,18:mainZADDITIONCHANGESET"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="ZADDITIONCHANGESET" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="36"/><column index="2" value="43"/><column index="3" value="45"/><column index="4" value="117"/><column index="5" value="62"/><column index="6" value="64"/><column index="7" value="75"/><column index="8" value="96"/><column index="9" value="84"/><column index="10" value="111"/><column index="11" value="78"/><column index="12" value="151"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="ZCONTEXTUALCHANGEREGISTRATION" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="36"/><column index="2" value="43"/><column index="3" value="45"/><column index="4" value="63"/><column index="5" value="173"/><column index="6" value="113"/><column index="7" value="300"/><column index="8" value="80"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="ZCUSTOMMETADATA" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="36"/><column index="2" value="43"/><column index="3" value="45"/><column index="4" value="94"/><column index="5" value="57"/><column index="6" value="73"/><column index="7" value="75"/><column index="8" value="91"/><column index="9" value="227"/><column index="10" value="300"/><column index="11" value="222"/><column index="12" value="88"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="ZDELETIONCHANGESET" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="36"/><column index="2" value="43"/><column index="3" value="45"/><column index="4" value="117"/><column index="5" value="62"/><column index="6" value="64"/><column index="7" value="75"/><column index="8" value="96"/><column index="9" value="84"/><column index="10" value="111"/><column index="11" value="78"/><column index="12" value="151"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">SELECT
+      ZOBJECT.ZSTARTDATE+978307200 AS &quot;START&quot;, 
+      DATETIME(ZOBJECT.ZENDDATE+978307200,'UNIXEPOCH') AS &quot;END&quot;,
+      ZOBJECT.ZVALUESTRING AS &quot;BUNDLE ID&quot;, 
+      (ZOBJECT.ZENDDATE - ZOBJECT.ZSTARTDATE) AS &quot;USAGE IN SECONDS&quot;,
+      CASE ZOBJECT.ZSTARTDAYOFWEEK 
+         WHEN &quot;1&quot; THEN &quot;Sunday&quot;
+         WHEN &quot;2&quot; THEN &quot;Monday&quot;
+         WHEN &quot;3&quot; THEN &quot;Tuesday&quot;
+         WHEN &quot;4&quot; THEN &quot;Wednesday&quot;
+         WHEN &quot;5&quot; THEN &quot;Thursday&quot;
+         WHEN &quot;6&quot; THEN &quot;Friday&quot;
+         WHEN &quot;7&quot; THEN &quot;Saturday&quot;
+      END &quot;DAY OF WEEK&quot;,
+      ZOBJECT.ZSECONDSFROMGMT/3600 AS &quot;GMT OFFSET&quot;
+   FROM ZOBJECT
+   WHERE
+      ZSTREAMNAME = &quot;/app/usage&quot; 
+ORDER BY &quot;START&quot;</sql><sql name="SQL 2">  SELECT
+DATETIME(ZOBJECT.ZCREATIONDATE + 978307200, 'UNIXEPOCH') AS &quot;ENTRY CREATION&quot;,
+CASE ZOBJECT.ZSTARTDAYOFWEEK
+When &quot;1&quot; saw &quot;Sunday&quot;
+When &quot;2&quot; saw &quot;Monday&quot;
+WHEN &quot;3&quot; IT &quot;Tuesday&quot;
+When &quot;4&quot; saw &quot;Wednesday&quot;
+When &quot;5&quot; saw &quot;Thursday&quot;
+When &quot;6&quot; saw &quot;Friday&quot;
+When &quot;7&quot; saw &quot;Saturday&quot;
+END &quot;DAY OF WEEK&quot;,
+ZOBJECT.ZSECONDSFROMGMT / 3600 AS &quot;GMT OFFSET&quot;,
+datetime (ZOBJECT.ZSTARTDATE + 978307200, 'UNIXEPOCH') AS &quot;START&quot;,
+datetime (ZOBJECT.ZENDDATE + 978307200, 'UNIXEPOCH') AS &quot;END&quot;
+(ZOBJECT.ZENDDATE-ZOBJECT.ZSTARTDATE) as &quot;USE IN OTHER&quot;,
+ZOBJECT.ZSTREAMNAME,
+ZOBJECT.ZVALUESTRING
+FROM ZOBJECT
+WHERE ZSTREAMNAME IS &quot;/ app / inFocus&quot;
+BOOK WITH &quot;START&quot;</sql><current_tab id="0"/></tab_sql></sqlb_project>

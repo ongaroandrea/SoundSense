@@ -16,12 +16,9 @@ final class FilesManager {
         guard let directory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).last else {
             return
         }
-        print(directory)
-        // create file url
-        
-       do{
+        do{
            try data.write(to: fileurl, options: .atomic)
-       }catch {
+        }catch {
            print("Unable to write in new file.")
         }
     }

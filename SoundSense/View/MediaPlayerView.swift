@@ -15,7 +15,7 @@ struct MediaPlayerView: View {
     let timer = Timer.publish(every: 0.5, on: .main, in: .common).autoconnect()
     
     var track: String
-    var obj: HealthDataV2
+    var obj: HealthData
     
     var body: some View {
         ZStack{
@@ -34,12 +34,12 @@ struct MediaPlayerView: View {
                     .bold()
                 
                 // MARK: Playback Timeline
-                if let playerT = audioManager.player {
+                if let player = audioManager.player {
                     VStack(spacing: 10){
-                        Slider(value: $value, in: 0...(playerT.duration)) { editing in
+                        Slider(value: $value, in: 0...(player.duration)) { editing in
                             if !editing {
                                 isEditing = true
-                                playerT.currentTime = value
+                                player.currentTime = value
                             }
                             
                         }
@@ -54,7 +54,7 @@ struct MediaPlayerView: View {
                         HStack(spacing: 10){
                             Spacer()
                             ButtonPlayer(image: "gobackward.10") {
-                                playerT.currentTime -= 10
+                                player.currentTime -= 10
                             }
                             .font(.system(size: 40))
                             Spacer()
@@ -64,7 +64,7 @@ struct MediaPlayerView: View {
                             .font(.system(size: 40))
                             Spacer()
                             ButtonPlayer(image: "gobackward.10") {
-                                playerT.currentTime += 10
+                                player.currentTime += 10
                             }
                             .font(.system(size: 40))
                             Spacer()
@@ -76,7 +76,7 @@ struct MediaPlayerView: View {
         }
         
         .onAppear(perform: {
-            audioManager.startPlayer(track: track)
+            audioManager.startPlayer()
         })
         .onReceive(timer){ _ in
             guard let player = audioManager.player, !isEditing else {return}
@@ -87,7 +87,7 @@ struct MediaPlayerView: View {
 
 struct MediaPlayerView_Previews: PreviewProvider {
     static var previews: some View {
-        MediaPlayerView(track: "chitarra", obj: HealthDataV2(name: "Step Count", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "stepcount", typeIdentifiers: HKQuantityTypeIdentifier.stepCount.rawValue))
+        MediaPlayerView(track: "chitarra", obj: HealthData(name: "Step Count", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "stepcount", typeIdentifiers: HKQuantityTypeIdentifier.stepCount))
             .environmentObject(AudioManager())
     }
 }

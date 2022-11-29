@@ -10,14 +10,15 @@ import CoreData
 import HealthKit
 
 struct SoundView: View {
-    @State private var selectedInstrument = Instrument.violin
-    @State private var selectedLenght = AudioLenght.medium
+    @State private var selectedInstrument = Instrument.violino
+    @State private var selectedLenght = AudioLength.media
+    @State private var showingAlert = false
     
     @ObservedObject var healthData: HealthClass = HealthClass()
-    @Environment(\.managedObjectContext) var managedObjController
     @EnvironmentObject var audioManager: AudioManager
     
-    var obj: HealthDataV2
+    var obj: HealthData
+    @Binding var visiblePlayer: Bool
     
     var body: some View {
         VStack(spacing: 0){
@@ -56,8 +57,8 @@ struct SoundView: View {
                         Text("Scegli la lunghezza")
                             .padding(.top)
                         Picker("Scegli la lunghezza", selection: $selectedLenght, content: {
-                            ForEach(AudioLenght.allCases, content: { audiolenght in
-                                Text(audiolenght.rawValue.capitalized)
+                            ForEach(AudioLength.allCases, content: { audiolength in
+                                Text(audiolength.rawValue.capitalized)
                                 
                             })
                             
@@ -71,38 +72,37 @@ struct SoundView: View {
                     }
                     Button{
                         //Ottieni i dati
-                        let threeMonthsAgo = DateComponents(month: -3)
-                        
-                        guard let startDate = Calendar.current.date(byAdding: threeMonthsAgo, to: Date()) else {
-                            fatalError("*** Unable to calculate the start date ***")
-                        }
-                       
                         Task {
-                            let dataT = await HealthClass().getSampleData(startDate: startDate, endDate: Date(), identifier: .stepCount)
+                            var dataT: [DataType] = []
+                            if(obj.typeIdentifiers.rawValue == "screenTime"){
+                                dataT = getCSVData(path: "Data/app_usage.csv")
+                            } else {
+                                dataT = await HealthClass().statisticsData(identifier: obj.typeIdentifiers, unit: obj.unit)
+                            }
+                            
                             
                             //Creo il dato da mandare
-                            let data: SendableData = SendableData(instrument: selectedInstrument, lenght: selectedLenght, data: dataT)
+                            let data: SendableData = SendableData(instrument: selectedInstrument, length: selectedLenght, data: dataT, type: obj.name, order: obj.order)
                             
                             //controlla nome file
                             let name = FilesManager().checkName(name: "sample")
                             //createFile
                             let responseCre = await Connection().uploadData(uploadData: data, fileManager: FilesManager(), fileURL: name!)
                             
-                            //add File to DB
-                            //CoreDataManager().addFile(id: UUID(), name: name!.lastPathComponent, description: obj.description, file_name: "", data: data, context: managedObjController)
-                            
-                            //Riproduci Audio
-                            if(responseCre){
-                                MediaPlayerView(track: name!.absoluteString, obj: obj)
-                                    .environmentObject(audioManager)
+                            if responseCre {
+                                visiblePlayer = true
+                                print(name!.lastPathComponent)
+                                audioManager.name = obj.name
+                                audioManager.image = obj.image
+                                audioManager.track = name!.lastPathComponent
+                                audioManager.soundFileURL = name!
+                                audioManager.startPlayer()
+                            } else {
+                                print("Errore")
+                                showingAlert = true
                             }
-                            
+  
                         }
-                        
-                        
-                        
-                        
-                        
                     } label: {
                         Label("Riproduci Brano", systemImage: "play.fill")
                             .font(.headline)
@@ -114,6 +114,10 @@ struct SoundView: View {
                             .cornerRadius(20)
                     }
                     .padding(.top)
+                    .alert("Errore. Riprovare", isPresented: $showingAlert) {
+                        Button("OK", role: .cancel) { }
+                    }
+                    
                     
                     Spacer()
                 }
@@ -124,6 +128,9 @@ struct SoundView: View {
             }
             .frame(height: UIScreen.main.bounds.height * 2 / 3)
             .onAppear() {
+                if(obj.typeIdentifiers.rawValue != "screenTime"){
+                    HealthClass().requestHealthAuthorization()
+                }
                 UITableView.appearance().backgroundColor = .clear
             }
         }
@@ -133,7 +140,7 @@ struct SoundView: View {
 
 struct SoundView_Previews: PreviewProvider {
     static var previews: some View {
-        SoundView(obj: HealthDataV2(name: "Step Count", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "stepcount", typeIdentifiers: HKQuantityTypeIdentifier.stepCount.rawValue))
+        SoundView(obj: HealthData(name: "Step Count", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", image: "stepcount", typeIdentifiers: HKQuantityTypeIdentifier.stepCount, order: .desc, unit: .count()), visiblePlayer: .constant(false))
     }
     
     init() {

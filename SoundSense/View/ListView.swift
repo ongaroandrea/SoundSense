@@ -7,35 +7,34 @@
 
 import SwiftUI
 import HealthKit
-import CoreData
 
 struct ListView: View {
     @State private var path: [String] = []
-    @Environment(\.managedObjectContext) var dataController
     @EnvironmentObject var audioManager: AudioManager
+    @Binding var visiblePlayer: Bool
+    
     var body: some View {
         NavigationStack{
             VStack {
                 ScrollView{
                     LazyVGrid(columns: [GridItem(.adaptive(minimum: 250), spacing: 15)], spacing: 50){
-                        ForEach(HealthDataV2.datat, id: \.self) { data in
+                        ForEach(HealthData.listHealthData, id: \.self) { data in
                             NavigationLink(value: data) {
                                 SingleView(image: data.image, nome: data.name)
-                                    
                             }
                         }
-                        
                     }
-                    .navigationDestination(for: HealthDataV2.self) { data in
-                        SoundView(obj: data)
-                            .environment(\.managedObjectContext, dataController)
+                    .navigationDestination(for: HealthData.self) { data in
+                        SoundView(obj: data, visiblePlayer: $visiblePlayer)
                             .environmentObject(audioManager)
                     }
                     .padding(.horizontal)
                 }
             }
+            
             .navigationTitle("Sonifica ora")
             .padding(.vertical)
+            .padding(.bottom, 40)
             Spacer()
         }
         
@@ -44,6 +43,8 @@ struct ListView: View {
 
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {
-        ListView()
+        
+        ListView(visiblePlayer: .constant(false))
+            .environmentObject(AudioManager())
     }
 }

@@ -6,33 +6,31 @@
 //
 
 import Foundation
-import AVKit
+import AVFAudio //AVKIT
 
 ///https://www.youtube.com/watch?v=Bvep_4H9Kdg
 final class AudioManager: ObservableObject {
     
+    var image: String = "noalbum"
+    var name: String = "no Name"
     var player: AVAudioPlayer!
+    var track: String = ""
+    var soundFileURL: URL = URL.init(filePath: "chitarra")
+    
     @Published private(set) var isPlaying: Bool = false {
         didSet {
-            print("Is playgin", isPlaying)
+            print("Is playing", isPlaying)
         }
     }
     
     @Published private(set) var isLooping: Bool = false {
         didSet {
-            print("Is playgin", isLooping)
+            print("Is playing", isLooping)
         }
     }
     
-    func startPlayer(track:String){
-        
-        guard let soundFileURL = Bundle.main.url(
-            forResource: track, withExtension: "wav"
-        ) else {
-            print("Resource not found \(track)")
-            return
-        }
-        
+    func startPlayer(){
+        print("Now playing \(self.track)")
         do {
             // Attempts to activate session so you can play audio,
             // if other sessions have priority this will fail
@@ -41,8 +39,8 @@ final class AudioManager: ObservableObject {
             try audioSession.setCategory(.playback, mode: .moviePlayback)
             // Attempts to activate session so you can play audio,
             // if other sessions have priority this will fail
-            try AVAudioSession.sharedInstance().setActive(true)
-            player = try AVAudioPlayer(contentsOf: soundFileURL)
+            try audioSession.setActive(true)
+            player = try AVAudioPlayer(contentsOf: self.soundFileURL)
             player?.play()
             isPlaying = true
         } catch let error {

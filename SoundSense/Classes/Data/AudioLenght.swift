@@ -7,10 +7,10 @@
 
 import Foundation
 
-enum AudioLenght: String, CaseIterable, Identifiable, Codable {
-    case short
-    case medium
-    case long
+enum AudioLength: String, CaseIterable, Identifiable, Codable {
+    case corta
+    case media
+    case lunga
     
-    var id: AudioLenght { self }
+    var id: AudioLength { self }
 }

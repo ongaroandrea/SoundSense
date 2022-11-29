@@ -8,34 +8,42 @@
 import SwiftUI
 
 struct TabBarView: View {
-    @State var current = 0
+    @State var current = 0 //tab selection
     @State var expand = false
     @Namespace var animation
     @EnvironmentObject var audioManager: AudioManager
-    @Environment(\.managedObjectContext) var dataController
+
     var body: some View {
         
         ZStack(alignment: Alignment(horizontal: .center, vertical: .bottom), content: {
             TabView(selection: $current){
-                ListView()
+                ListView(visiblePlayer: $expand)
                     .tag(0)
                     .tabItem{
                         Image(systemName: "square.and.arrow.down")
-                        Text("New")
+                        Text("Nuovo")
                     }
                     .environmentObject(audioManager)
-                    .environment(\.managedObjectContext, dataController)
                 
-                PastSonification()
+                PastSonificationView(visiblePlayer: $expand)
                     .tag(1)
                     .tabItem{
                         Image(systemName: "folder.fill")
                         Text("Creazioni Passate")
                     }
-                    .environment(\.managedObjectContext, dataController)
+                    .environmentObject(audioManager)
+                
+                SettingsView()
+                    .tag(2)
+                    .tabItem{
+                        Image(systemName: "gear")
+                        Text("Promemoria")
+                    }
+                    .environmentObject(audioManager)
             }
             .accentColor(Color.blue)
-            Miniplayer(animation: animation, expand: $expand)
+            
+            Miniplayer(animation: animation, expand: $expand, track: "chitarra")
                 .environmentObject(audioManager)
         })
         
@@ -45,7 +53,7 @@ struct TabBarView: View {
 struct TabBarView_Previews: PreviewProvider {
     static var previews: some View {
         TabBarView()
+            .environmentObject(VisibleMiniplayer())
             .environmentObject(AudioManager())
-            .environment(\.managedObjectContext, CoreDataManager().container.viewContext)
     }
 }

@@ -150,20 +150,20 @@ Project Link: [https://github.com/ongaroandrea/SoundSense_Client](https://github
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/ongaroandrea/SoundSense/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/ongaroandrea/SoundSense_Server.svg?style=for-the-badge
+[contributors-url]: https://github.com/ongaroandrea/SoundSense_Server/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/ongaroandrea/SoundSense/members
+[forks-shield]: https://img.shields.io/github/forks/ongaroandrea/SoundSense_Server.svg?style=for-the-badge
+[forks-url]: https://github.com/ongaroandrea/SoundSense_Server/members
 
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/ongaroandrea/SoundSense/stargazers
+[stars-shield]: https://img.shields.io/github/stars/ongaroandrea/SoundSense_Server.svg?style=for-the-badge
+[stars-url]: https://github.com/ongaroandrea/SoundSense_Server/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/ongaroandrea/SoundSense/issues
+[issues-shield]: https://img.shields.io/github/issues/ongaroandrea/SoundSense_Server.svg?style=for-the-badge
+[issues-url]: https://github.com/ongaroandrea/SoundSense_Server/issues
 
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/ongaroandrea/SoundSense/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/ongaroandrea/SoundSense_Server.svg?style=for-the-badge
+[license-url]: https://github.com/ongaroandrea/SoundSense_Server/LICENSE.txt
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/ongaro-andrea/

@@ -193,10 +193,10 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 [product-screenshot]: images/screenshot.png
 
-[Swift] https://www.swift.org/about/
-[User_Notifications] https://developer.apple.com/documentation/usernotifications/
-[Foundation] https://developer.apple.com/documentation/foundation/
-[AVFAudio] https://developer.apple.com/documentation/avfaudio
-[HealthKit] https://developer.apple.com/documentation/healthkit/about_the_healthkit_framework
-[KnowledgeC] https://www.mac4n6.com/blog/2018/8/5/knowledge-is-power-using-the-knowledgecdb-database-on-macos-and-ios-to-determine-precise-user-and-application-usage
-[SwiftUI] https://developer.apple.com/xcode/swiftui/
+[Swift]: https://www.swift.org/about/
+[User_Notifications]: https://developer.apple.com/documentation/usernotifications/
+[Foundation]: https://developer.apple.com/documentation/foundation/
+[AVFAudio]: https://developer.apple.com/documentation/avfaudio
+[HealthKit]: https://developer.apple.com/documentation/healthkit/about_the_healthkit_framework
+[KnowledgeC]: https://www.mac4n6.com/blog/2018/8/5/knowledge-is-power-using-the-knowledgecdb-database-on-macos-and-ios-to-determine-precise-user-and-application-usage
+[SwiftUI]: https://developer.apple.com/xcode/swiftui/

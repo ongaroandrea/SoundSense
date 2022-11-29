@@ -29,6 +29,12 @@
 
 <!-- PROJECT LOGO -->
 <br />
+<div align="center">
+  <a href="https://github.com/ongaroandrea/SoundSense">
+    <img src="SoundSense/Image/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">SoundSense</h3>
   <p align="center">
     Aumentare la consapevolezza sul benessere digitale: Data Visualization e Sonification in un’applicazione mobile
     <br />
@@ -74,7 +80,7 @@
 ## Il Progetto
 
 
-<b>Relatore</b>:  Prandi Catia < /br>
+<b>Relatore</b>:  Prandi Catia <br />
 <b>Correlatore</b>: Chiara Ceccarini
 
 Aumentare la consapevolezza sul benessere digitale: Data Visualization e Sonification in un’applicazione mobile
@@ -110,15 +116,12 @@ Necessario scaricare il server ed impostare l'ip del server all'interno del file
 ## Screenshots
 
 <div>
-    <img src="SoundSense/Screenshot/home.png" width="300" alt="Schermata selezione dati di utilizzo">
-    <img src="SoundSense/Screenshot/passi.png" width="300" alt="Schermata selezione dati dei passi">
-    <img src="SoundSense/Screenshot/utilizzo.png" width="300" alt="Lettore musicale nessun audio">
-    
-</div>
-<div>
-    <img src="SoundSense/Screenshot/accesso.png" width="300" alt="Richiesta accesso ai dati sanitari">
-    <img src="SoundSense/Screenshot/lettore.png" width="300" alt="Lettore musicale nessun audio">   
-    <img src="SoundSense/Screenshot/audio.png" width="300" alt="Lettore musicale con audio impostato">
+    <img src="SoundSense/Screenshot/home.png" width="200" alt="Schermata selezione dati di utilizzo">
+    <img src="SoundSense/Screenshot/passi.png" width="200" alt="Schermata selezione dati dei passi">
+    <img src="SoundSense/Screenshot/utilizzo.png" width="200" alt="Lettore musicale nessun audio">
+    <img src="SoundSense/Screenshot/accesso.png" width="200" alt="Richiesta accesso ai dati sanitari">
+    <img src="SoundSense/Screenshot/lettore.png" width="200" alt="Lettore musicale nessun audio">   
+    <img src="SoundSense/Screenshot/audio.png" width="200" alt="Lettore musicale con audio impostato">
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

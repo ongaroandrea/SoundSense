@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ongaroandrea/SoundSense">
-    <img src="SoundSense/Image/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/ongaroandrea/SoundSense/SoundSense/Image/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">SoundSense</h3>
@@ -43,11 +43,11 @@
     <a href="https://github.com/ongaroandrea/SoundSense"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ongaroandrea/SoundSense">View Demo</a>
+    <a href="https://github.com/ongaroandrea/SoundSense">Visualizza Demo</a>
     ·
     <a href="https://github.com/ongaroandrea/SoundSense/issues">Report Bug</a>
     ·
-    <a href="https://github.com/ongaroandrea/SoundSense/issues">Request Feature</a>
+    <a href="https://github.com/ongaroandrea/SoundSense/issues">Richiedi una funzionalità</a>
   </p>
 </div>
 
@@ -55,39 +55,31 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Tabella dei contenuti</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <a href="#il-progetto">Il Progetto</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#per-iniziare">Per iniziare</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#prerequisiti">Prerequisiti</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#screenshot">Screenshot</a></li>
+    <li><a href="#licenza">Licenza</a></li>
+    <li><a href="#contatti">Contatti</a></li>
   </ol>
 </details>
 
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Il Progetto
 
-[![SoundSense Project][product-screenshot]](https://example.com)
 
-Relatore:  Prandi Catia
-Correlatore: Chiara Ceccarini
+<b>Relatore</b>:  Prandi Catia
+<b>Correlatore</b>: Chiara Ceccarini
 
 Aumentare la consapevolezza sul benessere digitale: Data Visualization e Sonification in un’applicazione mobile
 
@@ -112,55 +104,37 @@ Con gli smartphone di oggi, i social media e i flussi infiniti di contenuti, mol
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Per iniziare
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+Necessario scaricare il server ed impostare l'ip del server all'interno del file di comunicazione.
 
 <!-- USAGE EXAMPLES -->
 ## Screenshots
 
-https://github.com/ongaroandrea/SoundSense/SoundSense/Screenshot/no_audio.png
-https://github.com/ongaroandrea/SoundSense/SoundSense/Screenshot/accesso.png
-https://github.com/ongaroandrea/SoundSense/SoundSense/Screenshot/lettore.png
-https://github.com/ongaroandrea/SoundSense/SoundSense/Screenshot/utilizzo.png
-https://github.com/ongaroandrea/SoundSense/SoundSense/Screenshot/audio.png
-https://github.com/ongaroandrea/SoundSense/SoundSense/Screenshot/home.png
-https://github.com/ongaroandrea/SoundSense/SoundSense/Screenshot/passi.png
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+![Lettore musicale nessun audio](https://github.com/ongaroandrea/SoundSense/SoundSense/Screenshot/no_audio.png)
+![Richiesta accesso ai dati sanitari](https://github.com/ongaroandrea/SoundSense/SoundSense/Screenshot/accesso.png)
+![Lettore musicale in miniatura](https://github.com/ongaroandrea/SoundSense/SoundSense/Screenshot/lettore.png)
+![Schermata selezione dati di utilizzo](https://github.com/ongaroandrea/SoundSense/SoundSense/Screenshot/utilizzo.png)
+![Lettore musicale con audio impostato](https://github.com/ongaroandrea/SoundSense/SoundSense/Screenshot/audio.png)
+![Schermata iniziale con selezione dati](https://github.com/ongaroandrea/SoundSense/SoundSense/Screenshot/home.png)
+![Schermata selezione dati dei passi](https://github.com/ongaroandrea/SoundSense/SoundSense/Screenshot/passi.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- LICENSE -->
-## License
+## Licenza
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distribuito con licenza MIT. Vedere `LICENSE.txt` per ulteriori informazioni.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- CONTACT -->
-## Contact
+## Contatti
 
 Andrea Ongaro  - andreaongaro103@yahoo.it | andrea.ongaro2@studio.unibo.it
 

@@ -9,44 +9,18 @@
 -->
 
 
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/ongaroandrea/SoundSense">
-    <img src="SoundSense/Image/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">SoundSense</h3>
+  <h3 align="center">SoundSense SERVER</h3>
   <p align="center">
-    Aumentare la consapevolezza sul benessere digitale: Data Visualization e Sonification in un’applicazione mobile
+    Raising Awareness of Digital Wellbeing: Data Visualization and Sonification in a Mobile Application
     <br />
     <br />
-    <a href="https://github.com/ongaroandrea/SoundSense_Client"><strong>Esplora la documentazione »</strong></a>
+    <a href="https://github.com/ongaroandrea/SoundSense_Server"><strong>Explore Documentation </strong></a>
     <br />
     <br />
-    <a href="https://github.com/ongaroandrea/SoundSense_Client">Visualizza Demo</a>
-    ·
-    <a href="https://github.com/ongaroandrea/SoundSense_Client/issues">Reporta un Bug</a>
-    ·
-    <a href="https://github.com/ongaroandrea/SoundSense_Client/issues">Richiedi una funzionalità</a>
+    <a href="https://github.com/ongaroandrea/SoundSense_Server">View Demo</a>
   </p>
 </div>
 
@@ -54,39 +28,38 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Tabella dei contenuti</summary>
+  <summary>Table of contents</summary>
   <ol>
     <li>
-      <a href="#il-progetto">Il Progetto</a>
+      <a href="#il-progetto">Project</a>
     </li>
     <li>
-      <a href="#realizzato-con">Realizzato con</a>
+      <a href="#realizzato-con">Built with</a>
     </li>
     <li>
-      <a href="#per-iniziare">Per iniziare</a>
+      <a href="#per-iniziare">To start</a>
       <ul>
-        <li><a href="#prerequisiti">Prerequisiti</a></li>
+        <li><a href="#prerequisiti">Prerequisities</a></li>
+        <li><a href="#api">API</a></li>
       </ul>
     </li>
     <li><a href="#screenshot">Screenshot</a></li>
-    <li><a href="#licenza">Licenza</a></li>
-    <li><a href="#contatti">Contatti</a></li>
+    <li><a href="#contatti">Contacts</a></li>
   </ol>
 </details>
 
 
 
 <!-- ABOUT THE PROJECT -->
-## Il Progetto
+## Project
+<b>Supervisor</b>:  Dott.ssa Prandi Catia <br />
+<b>Co-Supervisor</b>: Dott.ssa Chiara Ceccarini
 
+Technology plays a significant role in most people’s lives, but how can we ensure it enhances our lives rather than distracting us from them?
 
-<b>Relatore</b>:  Prandi Catia <br />
-<b>Correlatore</b>: Chiara Ceccarini
+With today’s smartphones, social media, and endless streams of content, many are quick to condemn technology based on the belief that these products harm mental health and overall wellbeing. However, focusing solely on these potentially harmful effects prevents us from fully harnessing the benefits these tools offer while also managing their risks.
 
-Aumentare la consapevolezza sul benessere digitale: Data Visualization e Sonification in un’applicazione mobile
-
-La tecnologia gioca un ruolo importante nella vita della maggior parte delle persone, ma come possiamo assicurarci che migliori effettivamente la vita piuttosto che distrarci da essa?
-Con gli smartphone di oggi, i social media e i flussi infiniti di contenuti, molte persone sono pronte a condannare la tecnologia sulla base della loro convinzione che questi prodotti siano dannosi per la salute mentale e il benessere. Ma concentrarsi solo su questi effetti potenzialmente dannosi non ci aiuta a raccogliere tutti i vantaggi che questi strumenti hanno da offrire, gestendo anche i loro rischi. Da qui nasce il digital wellbeing: un termine utilizzato per descrivere l’impatto delle tecnologie e dei servizi digitali sulla salute mentale, fisica, sociale ed emotiva delle persone.
+This is where digital wellbeing comes in: a term used to describe the impact of digital technologies and services on individuals’ mental, physical, social, and emotional health.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,50 +67,53 @@ Con gli smartphone di oggi, i social media e i flussi infiniti di contenuti, mol
 
 ### Realizzato con
 
-* [![Swift][Swift]][Swift]
-* [![SwiftUI][SwiftUI]][SwiftUI]
-* [![HealthKit][HealthKit]][HealthKit]
-* [![AVFAudio][AVFAudio]][AVFAudio]
-* [![User_Notifications][User_Notifications]][Swift]
-* [![KnowledgeC][KnowledgeC]][KnowledgeC]
+* [![Swift](https://img.shields.io/badge/Swift-5.5-orange)](https://swift.org/)
+* [![SwiftUI](https://img.shields.io/badge/SwiftUI-latest-blue)](https://developer.apple.com/xcode/swiftui/)
+* [![HealthKit](https://img.shields.io/badge/HealthKit-available-green)](https://developer.apple.com/documentation/healthkit/)
+* [![AVFAudio](https://img.shields.io/badge/AVFAudio-framework-yellow)](https://developer.apple.com/documentation/avfaudio/)
+* [![User Notifications](https://img.shields.io/badge/User_Notifications-available-red)](https://developer.apple.com/documentation/usernotifications/)
+* [![KnowledgeC](https://img.shields.io/badge/KnowledgeC-available-lightgrey)](https://developer.apple.com/documentation/)
 
 <p align="right">(<a href="#readme-top">Tor</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
-## Per iniziare
+## To start
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Necessario scaricare il server ed impostare l'ip del server all'interno del file di comunicazione.
+Set ip server inside the configuration file
 
 <!-- USAGE EXAMPLES -->
 ## Screenshots
 
 <div>
+  <div>
+    <h3>Usage Data Selection Screen</h3>
     <img src="SoundSense/Screenshot/home.png" width="200" alt="Schermata selezione dati di utilizzo">
+  </div> <div>
+    <h3>Step Data Selection Screen</h3>
     <img src="SoundSense/Screenshot/passi.png" width="200" alt="Schermata selezione dati dei passi">
+    </div><div>
+      <h3>Music Player (No Audio)</h3>
     <img src="SoundSense/Screenshot/utilizzo.png" width="200" alt="Lettore musicale nessun audio">
+  </div> <div>
+    <h3>Health Data Access Request</h3>
     <img src="SoundSense/Screenshot/accesso.png" width="200" alt="Richiesta accesso ai dati sanitari">
+    </div> <div>
+      <h3>Music Player (No Audio)</h3>
     <img src="SoundSense/Screenshot/lettore.png" width="200" alt="Lettore musicale nessun audio">   
+      </div> <div>
+        <h3>Music Player with Audio Enabled</h3>
     <img src="SoundSense/Screenshot/audio.png" width="200" alt="Lettore musicale con audio impostato">
+        </div>
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- LICENSE -->
-## Licenza
-
-Distribuito con licenza MIT. Vedere `LICENSE.txt` per ulteriori informazioni.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- CONTACT -->
-## Contatti
+## Contacts
 
 Andrea Ongaro  - andreaongaro103@yahoo.it | andrea.ongaro2@studio.unibo.it
 
@@ -146,34 +122,5 @@ Project Link: [https://github.com/ongaroandrea/SoundSense_Client](https://github
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/ongaroandrea/SoundSense_Server.svg?style=for-the-badge
-[contributors-url]: https://github.com/ongaroandrea/SoundSense_Server/contributors
-
-[forks-shield]: https://img.shields.io/github/forks/ongaroandrea/SoundSense_Server.svg?style=for-the-badge
-[forks-url]: https://github.com/ongaroandrea/SoundSense_Server/members
-
-[stars-shield]: https://img.shields.io/github/stars/ongaroandrea/SoundSense_Server.svg?style=for-the-badge
-[stars-url]: https://github.com/ongaroandrea/SoundSense_Server/stargazers
-
-[issues-shield]: https://img.shields.io/github/issues/ongaroandrea/SoundSense_Server.svg?style=for-the-badge
-[issues-url]: https://github.com/ongaroandrea/SoundSense_Server/issues
-
-[license-shield]: https://img.shields.io/github/license/ongaroandrea/SoundSense_Server.svg?style=for-the-badge
-[license-url]: https://github.com/ongaroandrea/SoundSense_Server/LICENSE.txt
-
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/ongaro-andrea/
-
 [product-screenshot]: images/screenshot.png
 
-[Swift]: https://www.swift.org/about/
-[User_Notifications]: https://developer.apple.com/documentation/usernotifications/
-[Foundation]: https://developer.apple.com/documentation/foundation/
-[AVFAudio]: https://developer.apple.com/documentation/avfaudio
-[HealthKit]: https://developer.apple.com/documentation/healthkit/about_the_healthkit_framework
-[KnowledgeC]: https://www.mac4n6.com/blog/2018/8/5/knowledge-is-power-using-the-knowledgecdb-database-on-macos-and-ios-to-determine-precise-user-and-application-usage
-[SwiftUI]: https://developer.apple.com/xcode/swiftui/
